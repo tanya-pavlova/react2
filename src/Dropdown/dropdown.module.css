@@ -1,0 +1,44 @@
+.DropdownContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.Dropdown {
+  background-color: rgb(75, 194, 168);
+  width: 550px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 20px 0px;
+}
+
+.Dropdown__toggle {
+  padding: 10px 0px;
+  width: 250px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  align-content: center;
+  color: rgb(255, 255, 255);
+  background-color: #01053b;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(99, 98, 98);
+}
+
+.Dropdown__toggle:first-child {
+  margin-right: 20px;
+}
+
+.Dropdown__menu {
+  height: 100px;
+  background-color: rgb(184, 236, 229);
+  margin: 0 auto;
+  position: absolute;
+  width: 550px;
+  text-align: center;
+  padding-top: 50px;
+  top: 86px;
+  font-size: 34px;
+  color: #01053b;
+}

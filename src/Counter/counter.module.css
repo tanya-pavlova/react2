@@ -1,0 +1,31 @@
+.conterContainer {
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 40px;
+  width: fit-content;
+  background-color: rgb(255, 206, 160);
+}
+
+.num {
+  font-size: 170px;
+  display: flex;
+  justify-content: center;
+  color: rgb(150, 36, 36);
+}
+
+.buttons {
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  color: rgb(150, 36, 36);
+  background-color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.buttons:first-child {
+  margin-right: 20px;
+}
